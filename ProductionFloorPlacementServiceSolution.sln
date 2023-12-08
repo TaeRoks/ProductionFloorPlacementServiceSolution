@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductionFloorPlacementService", "ProductionFloorPlacementService\ProductionFloorPlacementService.csproj", "{29BE2A62-67B3-4B9B-A3B5-74E9285D437A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductionFloorPlacementService.Tests", "ProductionFloorPlacementService.Tests\ProductionFloorPlacementService.Tests.csproj", "{38CBD504-741B-40B3-B970-83B84580C4BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BE2A62-67B3-4B9B-A3B5-74E9285D437A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BE2A62-67B3-4B9B-A3B5-74E9285D437A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BE2A62-67B3-4B9B-A3B5-74E9285D437A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BE2A62-67B3-4B9B-A3B5-74E9285D437A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CBD504-741B-40B3-B970-83B84580C4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CBD504-741B-40B3-B970-83B84580C4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CBD504-741B-40B3-B970-83B84580C4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CBD504-741B-40B3-B970-83B84580C4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07E757A0-1317-49C5-8C57-E43B40B79D77}
+	EndGlobalSection
+EndGlobal

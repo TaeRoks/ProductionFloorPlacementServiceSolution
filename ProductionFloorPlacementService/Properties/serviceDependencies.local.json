@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "type": "identityapp.default",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.ServiceLinker/locations/westus/connectors/ConnectionStringsProductionFloorPlacemen_E78BE70EFB",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/productionfloorservicedbserver/databases/ProductionFloorPlacementService_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ProductionFloorPlacementServiceContext",
+      "dynamicId": null
+    }
+  }
+}
