@@ -54,37 +54,7 @@ namespace ProductionFloorPlacementService.Controllers
             
         }
 
-        // PUT: api/PlacementContractModels/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutPlacementContractModel(int id, PlacementContractModel placementContractModel)
-        {
-            if (id != placementContractModel.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(placementContractModel).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PlacementContractModelExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-
-            return NoContent();
-        }
+        
 
         // POST: api/PlacementContractModels
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -107,25 +77,7 @@ namespace ProductionFloorPlacementService.Controllers
            
         }
 
-        // DELETE: api/PlacementContractModels/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletePlacementContractModel(int id)
-        {
-            if (_context.PlacementContractModel == null)
-            {
-                return NotFound();
-            }
-            var placementContractModel = await _context.PlacementContractModel.FindAsync(id);
-            if (placementContractModel == null)
-            {
-                return NotFound();
-            }
-
-            _context.PlacementContractModel.Remove(placementContractModel);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
+        
 
         private bool PlacementContractModelExists(int id)
         {
