@@ -14,12 +14,6 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//var keyVaultEndpoint = new Uri(Environment.GetEnvironmentVariable("VaultUri"));
-//builder.Configuration.AddAzureKeyVault(keyVaultEndpoint, new DefaultAzureCredential());
-//builder.Services.AddDbContext<ProductionFloorPlacementServiceContext>(options =>
-//options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionFloorPlacementServiceContext") ?? throw new InvalidOperationException("Connection string 'ProductionFloorPlacementServiceContext' not found.")));
-
-
 // Add services to the container.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using ProductionFloorPlacementService.Models;
+using ProductionFloorPlacementService.Data.Models;
 
 namespace ProductionFloorPlacementService.Data
 {
@@ -14,10 +14,10 @@ namespace ProductionFloorPlacementService.Data
         {
         }
 
-        public DbSet<ProductionFloorPlacementService.Models.ProductionFloorModel> ProductionFloorModel { get; set; } = default!;
+        public DbSet<ProductionFloorModel> ProductionFloorModel { get; set; } = default!;
 
-        public DbSet<ProductionFloorPlacementService.Models.TechnologicalEquipmentModel> TechnologicalEquipmentModel { get; set; } = default!;
+        public DbSet<TechnologicalEquipmentModel> TechnologicalEquipmentModel { get; set; } = default!;
 
-        public DbSet<ProductionFloorPlacementService.Models.PlacementContractModel> PlacementContractModel { get; set; } = default!;
+        public DbSet<PlacementContractModel> PlacementContractModel { get; set; } = default!;
     }
 }

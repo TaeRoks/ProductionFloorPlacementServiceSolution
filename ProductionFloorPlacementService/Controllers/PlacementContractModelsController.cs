@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProductionFloorPlacementService.Data;
+using ProductionFloorPlacementService.Data.Models;
 using ProductionFloorPlacementService.Exceptions;
 using ProductionFloorPlacementService.Interfaces;
 using ProductionFloorPlacementService.Models;

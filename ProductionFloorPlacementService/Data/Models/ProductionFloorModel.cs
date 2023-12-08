@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProductionFloorPlacementService.Models
+namespace ProductionFloorPlacementService.Data.Models
 {
     public class ProductionFloorModel
     {

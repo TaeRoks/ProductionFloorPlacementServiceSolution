@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using ProductionFloorPlacementService.Data;
+using ProductionFloorPlacementService.Data.Models;
 using ProductionFloorPlacementService.Models;
 using ProductionFloorPlacementService.Services;
 
