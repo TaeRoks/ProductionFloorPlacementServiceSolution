@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using ProductionFloorPlacementService.Data;
+using ProductionFloorPlacementService.Data.Models;
 using ProductionFloorPlacementService.Exceptions;
 using ProductionFloorPlacementService.Interfaces;
 using ProductionFloorPlacementService.Models;
